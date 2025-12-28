@@ -1005,7 +1005,7 @@ xxl.job.executor.ip=
 ### 执行器端口号 [选填]：小于等于0则自动获取；默认端口为9999，单机部署多个执行器时，注意要配置不同执行器端口；
 xxl.job.executor.port=9999
 ### 执行器运行日志文件存储磁盘路径 [选填] ：需要对该路径拥有读写权限；为空则使用默认路径；
-xxl.job.executor.logpath=/data/applogs/xxl-job/jobhandler
+xxl.job.executor.logpath=./applogs/xxl-job/jobhandler
 ### 执行器日志文件保存天数 [选填] ： 过期日志自动清理, 限制值大于等于3时生效; 否则, 如-1, 关闭自动清理功能；
 xxl.job.executor.logretentiondays=30
 ### 任务扫描排除路径 [选填] ：任务扫描时忽略指定包路径下的Bean；支持配置包路径前缀，多个逗号分隔；
